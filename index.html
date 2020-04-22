@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tic-Tac-Toe</title>
-  <link rel="stylesheet" href="./main.css">
-</head>
-<body>
-  <div class="parent">
-    <div class="whitespace"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="logo"><img src="./assets/neon_on.png" alt="Logo" /></div>
     <div class="game--container">
       <div data-cell-index="0" class="cell"></div>
       <div data-cell-index="1" class="cell"></div>
@@ -20,14 +19,10 @@
       <div data-cell-index="7" class="cell"></div>
       <div data-cell-index="8" class="cell"></div>
     </div>
-    <div class="info">
-      <img src="./assets/neon_on.png" alt="TicTacToe"/>
-      <h2 class="game--status"><h2>
-      <div class="restart">
-        <h1 class="game--restart">Rest<span class="first">a</span>rt</h1>
-      </div>   
+    <h1 class="game--status"></h1>
+    <div class="restart">
+      <h3 class="game--restart">Rest<span class="first">a</span>rt</h3>
     </div>
-  </div>
-  <script src="./app.js"></script>
-</body>
+    <script src="./app.js"></script>
+  </body>
 </html>
